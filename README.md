@@ -1,15 +1,13 @@
-# IntelliScheduler - AI-Powered Academic Timetable Generator
+# EduSchedule - AI-Powered Academic Timetable Generator
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![made-for-sih](https://img.shields.io/badge/Made%20for-SIH%202025-blue.svg)](https://www.sih.gov.in/)
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
 [![React](https://img.shields.io/badge/React-18.x-61DAFB.svg?logo=react)](https://reactjs.org/)
 
 **From Chaos to Clarity: Optimizing Academic Timetables with AI.**
 
-IntelliScheduler is an intelligent web platform designed to solve the complex challenge of class scheduling in higher education institutions. Developed for the **Smart India Hackathon 2025**, this project automates and optimizes the creation of timetables, ensuring efficient use of resources and eliminating conflicts.
+EduSchedule is an intelligent web platform designed to solve the complex challenge of class scheduling in higher education institutions. Developed for the **Smart India Hackathon 2025**, this project automates and optimizes the creation of timetables, ensuring efficient use of resources and eliminating conflicts.
 
-![Dashboard Screenshot](https://i.imgur.com/your-screenshot-link.png) 
 ## 📋 Table of Contents
 
 - [The Problem](#-the-problem)
