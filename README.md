@@ -1,13 +1,17 @@
 # EduSchedule - AI-Powered Academic Timetable Generator
 
 [![made-for-sih](https://img.shields.io/badge/Made%20for-SIH%202025-blue.svg)](https://www.sih.gov.in/)
-[![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
 [![React](https://img.shields.io/badge/React-18.x-61DAFB.svg?logo=react)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6.svg?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-646CFF.svg?logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
+
 
 **From Chaos to Clarity: Optimizing Academic Timetables with AI.**
 
 EduSchedule is an intelligent web platform designed to solve the complex challenge of class scheduling in higher education institutions. Developed for the **Smart India Hackathon 2025**, this project automates and optimizes the creation of timetables, ensuring efficient use of resources and eliminating conflicts.
 
+[Image of the EduSchedule application dashboard]
 ## 📋 Table of Contents
 
 - [The Problem](#-the-problem)
@@ -22,13 +26,19 @@ EduSchedule is an intelligent web platform designed to solve the complex challen
 - [👥 Team Members](#-team-members)
 - [📜 License](#-license)
 
+***
+
 ## 📌 The Problem
 
 Higher Education institutions often struggle with manual timetable preparation. This process is time-consuming, prone to errors, and leads to frequent clashes, underutilized classrooms, and uneven workload distribution. With the adoption of multidisciplinary curricula under NEP 2020, this complexity has only increased, making a robust, intelligent solution more critical than ever.
 
+***
+
 ## ✨ Our Solution
 
-IntelliScheduler is a web-based platform that uses a **Genetic Algorithm** to generate fully optimized, clash-free timetables. It considers a multitude of constraints including faculty availability, room capacity, subject requirements, and student batches. The system provides administrators with multiple optimized options, a real-time conflict detection editor, and actionable suggestions, transforming a week-long manual task into a simple, one-click process.
+EduSchedule is a web-based platform that uses a **Genetic Algorithm** to generate fully optimized, clash-free timetables. It considers a multitude of constraints including faculty availability, room capacity, subject requirements, and student batches. The system provides administrators with multiple optimized options, a real-time conflict detection editor, and actionable suggestions, transforming a week-long manual task into a simple, one-click process.
+
+***
 
 ## 🚀 Key Features
 
@@ -40,15 +50,19 @@ IntelliScheduler is a web-based platform that uses a **Genetic Algorithm** to ge
 * **🏢 Multi-Department & Multi-Shift Ready:** Designed to handle the complexities of large institutions with various departments and scheduling shifts.
 * **🔒 Secure & Role-Based Access:** A secure login system for authorized personnel to create and manage schedules.
 
+***
+
 ## 🛠️ Technology Stack
 
 | Component | Technology |
 | :--- | :--- |
-| **Frontend** | React.js, Material-UI |
+| **Frontend** | React.js, **TypeScript**, **Vite**, Material-UI |
 | **Backend** | Python, Django REST Framework |
 | **Database** | PostgreSQL |
 | **Optimization Core** | DEAP (Python Library for Evolutionary Computation) |
 | **Deployment** | Docker, AWS / Google Cloud |
+
+***
 
 ## 🏗️ System Architecture
 
@@ -56,7 +70,7 @@ Our platform is built on a robust, scalable architecture that separates the fron
 
 ```mermaid
 graph TD
-    A[Frontend: React.js] -- REST API --> B[Backend: Django];
+    A[Frontend: React/Vite] -- REST API --> B[Backend: Django];
     B -- Manages/Validates --> C[Database: PostgreSQL];
     B -- Triggers & Provides Data --> D[Optimization Engine: Genetic Algorithm Core];
     D -- Returns Optimized Timetables --> B;
