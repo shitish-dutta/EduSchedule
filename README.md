@@ -7,7 +7,7 @@
 
 **From Chaos to Clarity: Optimizing Academic Timetables with AI.**
 
-IntelliScheduler is an intelligent web platform designed to solve the complex challenge of class scheduling in higher education institutions. Developed for the **Smart India Hackathon 2024**, this project automates and optimizes the creation of timetables, ensuring efficient use of resources and eliminating conflicts.
+IntelliScheduler is an intelligent web platform designed to solve the complex challenge of class scheduling in higher education institutions. Developed for the **Smart India Hackathon 2025**, this project automates and optimizes the creation of timetables, ensuring efficient use of resources and eliminating conflicts.
 
 ![Dashboard Screenshot](https://i.imgur.com/your-screenshot-link.png) 
 ## 📋 Table of Contents
