@@ -1,7 +1,7 @@
 # IntelliScheduler - AI-Powered Academic Timetable Generator
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![made-for-sih](https://img.shields.io/badge/Made%20for-SIH%202024-blue.svg)](https://www.sih.gov.in/)
+[![made-for-sih](https://img.shields.io/badge/Made%20for-SIH%202025-blue.svg)](https://www.sih.gov.in/)
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
 [![React](https://img.shields.io/badge/React-18.x-61DAFB.svg?logo=react)](https://reactjs.org/)
 
